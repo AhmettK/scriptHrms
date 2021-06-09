@@ -1,4 +1,3 @@
-![alt text](https://res.cloudinary.com/dxsfyp8lj/image/upload/v1622832130/bs8dwpz1byd29h64mtna.jpg)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
