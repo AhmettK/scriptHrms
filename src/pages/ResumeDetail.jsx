@@ -42,7 +42,7 @@ export default function ResumeDetail() {
 
     return (
         <div>
-            <h1>Cirruculum Vitae</h1>
+            <h1>Cirruculum Vitaes</h1>
             <List>
                 <List.Item>
                     <List.Icon name='folder' />
