@@ -5,7 +5,7 @@ import SchoolService from '../services/schoolService'
 import ExperienceService from '../services/experienceService'
 import LanguageService from '../services/languageService'
 import TechnologyService from '../services/technologyService'
-import { List } from 'semantic-ui-react'
+import { List, Image } from 'semantic-ui-react'
 
 export default function ResumeDetail() {
     let { id } = useParams()
@@ -43,6 +43,7 @@ export default function ResumeDetail() {
     return (
         <div>
             <h1>Cirruculum Vitaes</h1>
+            <Image src={resume.photo}/>
             <List>
                 <List.Item>
                     <List.Icon name='folder' />
@@ -121,6 +122,14 @@ export default function ResumeDetail() {
                                 ))
                             }
                         </List.List>
+                    </List.Content>
+                </List.Item>
+                <List.Item>
+                    <List.Icon name='folder'/>
+                    <List.Content>
+                        <List.Header>Cover Letter : {resume.coverLetter}</List.Header>
+                        <List.Header>Github : {resume.githubLink}</List.Header>
+                        <List.Header>Linkedin : {resume.linkedinLink}</List.Header>
                     </List.Content>
                 </List.Item>
             </List>
