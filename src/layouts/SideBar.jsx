@@ -26,6 +26,11 @@ export default function SideBar() {
                     as={NavLink}
                     to="/jobAdvertisements"
                 />
+                <Menu.Item
+                    name='Job Advertisement Add'
+                    as={NavLink}
+                    to="/jobAdvertisementAdd"
+                />
             </Menu>
         </div>
     )
